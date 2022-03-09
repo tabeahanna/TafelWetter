@@ -1,0 +1,97 @@
+h1 {
+  text-align: center;
+  padding-top: 15px;
+}
+#actualdate {
+  text-align: center;
+}
+
+#cities {
+  width: 400px;
+  text-align: center;
+  margin: 0 auto;
+  padding-bottom: 5px;
+  padding-top: 10px;
+}
+#city1 {
+  padding: 6px 10px;
+}
+#city2 {
+  padding: 6px 14px;
+}
+#city4 {
+  padding: 6px 8px;
+}
+
+#hum {
+  font-size: 16px;
+}
+#temp {
+  font-size: 16px;
+}
+#wind {
+  font-size: 16px;
+}
+#searchButton {
+  font-size: 15px;
+}
+
+#weatherinformation {
+  width: 400px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+#weatherdescription {
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.activ:hover {
+  color: black;
+}
+.form-control {
+  width: 275px;
+}
+#icon {
+  display: block;
+  font-size: 120px;
+  padding-top: 0px;
+  margin: 0 auto;
+}
+.temperature {
+  font-size: 35px;
+}
+.underEmoji {
+  text-align: center;
+}
+.city {
+  font-size: 45px;
+  text-align: center;
+  font-family: "Roboto Slab", serif;
+  font-weight: bold;
+}
+.developer {
+  text-align: center;
+  font-size: 12.5px;
+}
+.container {
+  background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/028/850/original/pexels-neosiam-625219.jpg?1646809271);
+  max-width: 2400px;
+  padding: 60px;
+  font-family: "Fredericka the Great", cursive;
+  color: aliceblue;
+}
+.units {
+  font-size: 12px;
+}
+.weather-forecast {
+  text-align: center;
+}
+.weather-forecast-temperature-min {
+  font-size: 12px;
+  opacity: 0.6;
+}
+.weather-forecast-temperature-max {
+  font-size: 12px;
+}

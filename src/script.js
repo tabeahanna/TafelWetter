@@ -47,7 +47,7 @@ function showTemperature(answer) {
   humidity.innerHTML = answer.data.main.humidity;
   temperatureChanges.innerHTML =
     Math.round(answer.data.main.temp_min) +
-    "/" +
+    " / " +
     Math.round(answer.data.main.temp_max);
   wind.innerHTML = Math.round(answer.data.wind.speed);
   weatherdescription.innerHTML = answer.data.weather[0].main + " in";
@@ -135,7 +135,7 @@ function displayForecast(response) {
   let forecastHTML = `<div class="row">`;
 
   forecast.forEach(function (forecastDay, index) {
-    if (index < 5) {
+    if (index < 6) {
       forecastHTML =
         forecastHTML +
         `<div class="col-2">

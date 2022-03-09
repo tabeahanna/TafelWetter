@@ -48,6 +48,30 @@ h1 {
 #humidity {
   font-size: 16px;
 }
+#icon {
+  display: block;
+  font-size: 160px;
+  padding: 0px;
+  margin: 0 auto;
+}
+#search {
+  width: 272px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  color: RGB(72, 72, 74);
+  font-weight: bold;
+  position: relative;
+  right: 3px;
+}
+
+#searchButton {
+  font-size: 15px;
+  color: white;
+  background-color: RGB(236, 110, 76);
+  border-color: RGB(236, 110, 76);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  position: relative;
+  right: -2px;
+}
 #temp {
   font-size: 20px;
 }
@@ -59,13 +83,6 @@ h1 {
 }
 #wind {
   font-size: 16px;
-}
-#searchButton {
-  font-size: 15px;
-  color: white;
-  background-color: RGB(236, 110, 76);
-  border-color: RGB(236, 110, 76);
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #weatherinformation {
@@ -80,34 +97,9 @@ h1 {
   font-size: 14px;
 }
 
-#search {
-  width: 272px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  color: RGB(236, 110, 76);
-  font-weight: bold;
-  position: relative;
-  right: 3px;
-}
-
-#icon {
-  display: block;
-  font-size: 160px;
-  padding: 0px;
-  margin: 0 auto;
-}
-.temperature {
-  font-size: 35px;
-}
-.underEmoji {
-  text-align: center;
-}
 .city {
   font-size: 50px;
   text-align: center;
-}
-.developer {
-  text-align: center;
-  font-size: 12.5px;
 }
 .container {
   background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/028/851/original/pexels-daniel-reche-3616959.jpg?1646816859);
@@ -117,6 +109,18 @@ h1 {
   font-family: "Fredericka the Great", cursive;
   color: white;
   min-width: 1300px;
+}
+.developer {
+  text-align: center;
+  font-size: 12.5px;
+  position: relative;
+}
+.temperature {
+  font-size: 35px;
+}
+
+.underEmoji {
+  text-align: center;
 }
 .units {
   font-size: 16px;

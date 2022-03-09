@@ -43,22 +43,22 @@ h1 {
 }
 
 #hum {
-  font-size: 16px;
+  font-size: 20px;
 }
 #humidity {
-  font-size: 14px;
+  font-size: 16px;
 }
 #temp {
-  font-size: 16px;
+  font-size: 20px;
 }
 #temperaturechanges {
-  font-size: 14px;
-}
-#wi {
   font-size: 16px;
 }
+#wi {
+  font-size: 20px;
+}
 #wind {
-  font-size: 14px;
+  font-size: 16px;
 }
 #searchButton {
   font-size: 15px;
@@ -81,10 +81,12 @@ h1 {
 }
 
 #search {
-  width: 275px;
+  width: 272px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   color: RGB(236, 110, 76);
   font-weight: bold;
+  position: relative;
+  right: 3px;
 }
 
 #icon {
@@ -111,22 +113,25 @@ h1 {
   background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/028/851/original/pexels-daniel-reche-3616959.jpg?1646816859);
   background-size: 100%;
   padding: 110px;
-  padding-bottom: 200px;
+  padding-bottom: 90px;
   font-family: "Fredericka the Great", cursive;
   color: white;
-  min-width: 1200px;
+  min-width: 1300px;
 }
 .units {
-  font-size: 12px;
-}
-.weather-forecast {
-  text-align: center;
   font-size: 16px;
 }
+.weather-forecast {
+  position: relative;
+  text-align: center;
+  font-size: 20px;
+}
 .weather-forecast-temperature-min {
+  position: relative;
   font-size: 14px;
   opacity: 0.7;
 }
 .weather-forecast-temperature-max {
-  font-size: 12px;
+  font-size: 14px;
+  position: relative;
 }

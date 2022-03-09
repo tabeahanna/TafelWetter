@@ -50,7 +50,7 @@ function showTemperature(answer) {
     "/" +
     Math.round(answer.data.main.temp_max);
   wind.innerHTML = Math.round(answer.data.wind.speed);
-  weatherdescription.innerHTML = answer.data.weather[0].main;
+  weatherdescription.innerHTML = answer.data.weather[0].main + " in";
 
   getForecast(answer.data.coord);
 }
@@ -135,7 +135,7 @@ function displayForecast(response) {
   let forecastHTML = `<div class="row">`;
 
   forecast.forEach(function (forecastDay, index) {
-    if (index < 6) {
+    if (index < 5) {
       forecastHTML =
         forecastHTML +
         `<div class="col-2">

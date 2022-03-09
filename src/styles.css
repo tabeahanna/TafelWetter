@@ -15,12 +15,26 @@ h1 {
 }
 #city1 {
   padding: 6px 10px;
+  color: white;
+  background-color: RGB(72, 72, 74);
+  border-color: RGB(72, 72, 74);
 }
 #city2 {
   padding: 6px 14px;
+  color: white;
+  background-color: RGB(72, 72, 74);
+  border-color: RGB(72, 72, 74);
+}
+#city3 {
+  color: white;
+  background-color: RGB(72, 72, 74);
+  border-color: RGB(72, 72, 74);
 }
 #city4 {
   padding: 6px 8px;
+  color: white;
+  background-color: RGB(236, 110, 76);
+  border-color: RGB(236, 110, 76);
 }
 
 #hum {
@@ -34,6 +48,9 @@ h1 {
 }
 #searchButton {
   font-size: 15px;
+  color: white;
+  background-color: RGB(236, 110, 76);
+  border-color: RGB(236, 110, 76);
 }
 
 #weatherinformation {
@@ -44,7 +61,8 @@ h1 {
 
 #weatherdescription {
   text-align: center;
-  text-transform: capitalize;
+  text-transform: firstletter capitalize;
+  font-size: 14px;
 }
 
 .activ:hover {
@@ -68,19 +86,18 @@ h1 {
 .city {
   font-size: 45px;
   text-align: center;
-  font-family: "Roboto Slab", serif;
-  font-weight: bold;
 }
 .developer {
   text-align: center;
   font-size: 12.5px;
 }
 .container {
-  background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/028/850/original/pexels-neosiam-625219.jpg?1646809271);
-  max-width: 2400px;
-  padding: 60px;
+  background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/028/851/original/pexels-daniel-reche-3616959.jpg?1646816859);
+  background-size: 100%;
+  padding: 110px;
+  padding-bottom: 200px;
   font-family: "Fredericka the Great", cursive;
-  color: aliceblue;
+  color: white;
 }
 .units {
   font-size: 12px;
@@ -90,7 +107,7 @@ h1 {
 }
 .weather-forecast-temperature-min {
   font-size: 12px;
-  opacity: 0.6;
+  opacity: 0.7;
 }
 .weather-forecast-temperature-max {
   font-size: 12px;
